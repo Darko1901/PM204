@@ -14,7 +14,10 @@ export default function App() {
       
       <Saludo/>
       <Saludo2></Saludo2>
-      <Perfil></Perfil>
+      <Perfil nombre="Ricardo" 
+        carrera = "ISC" 
+        materia="PM" 
+        cuatri="9" />
 
       <StatusBar style="auto" />
     </View>
