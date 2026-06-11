@@ -9,15 +9,26 @@ import { Perfil } from './components/Perfil';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Image source={require('./assets/wave.png')}/>
-      <Text>Hola mundo react native</Text>
       
       <Saludo/>
       <Saludo2></Saludo2>
-      <Perfil nombre="Ricardo" 
+      <Perfil style={styles.tarjetaRoja} nombre="Ricardo" 
         carrera = "ISC" 
         materia="PM" 
-        cuatri="9" />
+        cuatri="9" 
+        />
+
+        <Perfil style={styles.tarjetaVerde} nombre="Ricardo" 
+        carrera = "ISC" 
+        materia="PM" 
+        cuatri="9" 
+        />
+
+        <Perfil style={styles.tarjetaRoja} nombre="Ricardo" 
+        carrera = "ISC" 
+        materia="PM" 
+        cuatri="9" 
+        />
 
       <StatusBar style="auto" />
     </View>
@@ -30,6 +41,13 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'space-evenly',
+    flexDirection: 'row'
   },
+  tarjetaVerde:{
+    backgroundColor: 'green'
+  },
+  tarjetaRoja: {
+    backgroundColor: 'red'
+  }
 });
