@@ -5,7 +5,7 @@ import {Saludo} from './components/Saludo';
 import { Saludo2 } from './components/Saludo2';
 import { Perfil } from './components/Perfil';
 
-// Zona 2: Es el main, o mejor dicho, el lugar donde irán los componentes
+// Zona 2: Es el main, o mejor dicho, el lugar donde irán los componentes, y todo eso
 export default function App() {
   return (
     <View style={styles.container}>
