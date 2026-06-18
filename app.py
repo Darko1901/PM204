@@ -1,5 +1,6 @@
 import streamlit as st
 
+# Prueba git
 # ── Contenido de las salas ─────────────────────────────────────────────────────
 
 SALAS = [
